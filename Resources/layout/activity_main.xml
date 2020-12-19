@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bl2"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1" >
+        <ImageView
+           
+            android:layout_width="150dp"
+            android:background="@drawable/sa4"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="120dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView1" />
+        <EditText
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="15dp"
+            android:layout_width="350dp"
+            android:paddingLeft="10dp"
+            android:hint="Email"
+            android:layout_marginBottom="10dp"
+            android:background="#DCF5FB"
+            android:layout_height="30dp"
+            android:id="@+id/editText1" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="10dp"
+            android:hint="Password"
+            android:background="#DCF5FB"
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:id="@+id/editText2" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2" >
+            <Button
+                android:text="login"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#AEE2F8"
+                android:id="@+id/button1" />
+            <Button
+                android:text="Signup"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:background="#AEE2F8"
+                android:layout_height="match_parent"
+                android:id="@+id/button2" />
+        </LinearLayout>
+        
+       
+        
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

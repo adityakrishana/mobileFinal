@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bl2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/rg1"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="67.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/imageView1" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="350dp"
+        android:background="#DCF5FB"
+        android:layout_height="40dp"
+        android:layout_marginLeft="18dp"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText1" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="350dp"
+        android:background="#DCF5FB"
+        android:layout_height="40dp"
+        android:layout_marginLeft="18dp"
+        android:hint="Name"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText2" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="350dp"
+        android:background="#DCF5FB"
+        android:layout_height="40dp"
+        android:layout_marginLeft="18dp"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText3" />
+    <EditText
+        android:inputType="phone"
+        android:layout_width="350dp"
+        android:background="#DCF5FB"
+        android:layout_height="40dp"
+        android:layout_marginLeft="18dp"
+        android:hint="Number"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText4" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="350dp"
+        android:background="#DCF5FB"
+        android:layout_height="40dp"
+        android:layout_marginLeft="18dp"
+        android:hint="Age"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText5" />
+    <Button
+        android:text="Register"
+        android:layout_width="350dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:layout_height="wrap_content"
+        android:background="#1FB9F9"
+        android:id="@+id/button1" />
+    
+
+</LinearLayout>

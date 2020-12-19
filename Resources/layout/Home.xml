@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bl2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Toolbar
+        android:id="@+id/toolbar1"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="#1FB9F9"
+        android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"
+        android:popupTheme="@android:style/ThemeOverlay.Material.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@drawable/pf3"
+        android:layout_width="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/imageView1" />
+    <TextView
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1" >
+        <EditText
+            android:inputType="textPassword"
+            android:background="#AEE2F8"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/editText1" />
+        <Button
+            android:text="edit passs"
+            android:layout_marginLeft="10dp"
+            android:background="#1FB9F9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2" >
+        <EditText
+            android:inputType="textPersonName"
+            android:background="#AEE2F8"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/editText2" />
+        <Button
+            android:text="edit name"
+            android:layout_marginLeft="10dp"
+            android:background="#1FB9F9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button2" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3" >
+        <EditText
+            android:inputType="phone"
+            android:background="#AEE2F8"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/editText3" />
+        <Button
+            android:text="Edit Num"
+            android:layout_marginLeft="10dp"
+            android:background="#1FB9F9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button3" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4" >
+        <EditText
+            android:inputType="number"
+            android:background="#AEE2F8"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/editText4" />
+        <Button
+            android:text="Edit Age"
+            android:layout_marginLeft="10dp"
+            android:background="#1FB9F9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button4" />
+
+    </LinearLayout>
+
+</LinearLayout>

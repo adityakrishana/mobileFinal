@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@id/home"
+		  android:icon="@mipmap/ic_action_content_home"
+		  android:showAsAction="always"
+		  android:title="Home" />
+	<item android:id="@+id/favourite"
+		  android:icon="@mipmap/ic_action_content_favourite"
+		  android:showAsAction="always"
+		  android:title="Favourite" />
+	<item android:id="@+id/cars"
+		  android:icon="@mipmap/ic_action_content_car"
+		  android:showAsAction="always"
+		  android:title="cars" />
+</menu>
